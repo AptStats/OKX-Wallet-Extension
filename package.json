@@ -1,6 +1,6 @@
 {
   "name": "@aptstats/okx-wallet-extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -10,6 +10,23 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "rm -rf dist; tsc"
+  },
+  "repository": {
+    "url": "https://github.com/AptStats/okx-wallet-extension"
+  },
+  "keywords": [
+    "Aptos",
+    "AptStats",
+    "Aptos wallet",
+    "Aptos Wallet Adapters",
+    "Aptos wallet extensions",
+    "OKX",
+    "OKX Web3 Wallet"
+  ],
+  "author": {
+    "name": "Eric Allen",
+    "email": "eric@aptstats.xyz",
+    "url": "https://aptstats.xyz"
   },
   "peerDependencies": {
     "aptos": "^1.3.16"
